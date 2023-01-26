@@ -1,16 +1,37 @@
 .App {
   text-align: center;
+  background-color: rgb(5, 2, 137);
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column;;
   justify-content:flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.logo {
+  margin-left: 600px;
+  margin-top: 170px;
+}
+.button  {
+  width: 300px;
+  height: 60px;
+  margin-left: 600px;
+  font-size: 20px;
+  background-color: rgb(58, 251, 246);
+  border-radius: 2rem;
+}
 
+.button:hover {
+  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.data {
+  width: 200px;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
 

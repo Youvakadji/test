@@ -23,13 +23,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Test for Datanow
-        </p>
+        <div>Youva KADJI</div>
+        <img className='logo' src="https://uploads-ssl.webflow.com/630335ca97908437a5a45c62/630335ca9790840713a45c9c_Logo.svg" alt="logo_datanow" width={300} height={150} />
         <button className='button' onClick={onClickeHandler}>
           <label htmlFor="text">Show me the last random value</label>
         </button>
-        <p style={{width: '500px'}}> {data} </p>
+        <p className="data"> {data} </p>
         
         
       </header>
